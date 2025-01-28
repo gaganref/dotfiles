@@ -1,0 +1,5 @@
+#theme = dark:catppuccin-mocha,light:catppuccin-latte
+#theme = dark:Atom,light:AtomOneLight
+theme = dark:Oxocarbon,light:AtomOneLight
+font-family = "JetBrainsMono Nerd Font Mono"
+font-size = 15
