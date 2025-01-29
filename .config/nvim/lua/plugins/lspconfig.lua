@@ -25,7 +25,11 @@ return {
     lazy = false,
     config = function()
       local lspconfig = require("lspconfig")
+      lspconfig.sourcekit.setup({
+      })
       lspconfig.lua_ls.setup({
+      })
+      lspconfig.zls.setup({
       })
       local wk = require('which-key')
       wk.add({

@@ -35,6 +35,7 @@
         pkgs.fzf
         pkgs.gh
         pkgs.gping
+        pkgs.imhex
         pkgs.lazydocker
         pkgs.lazygit
         pkgs.neofetch
@@ -45,6 +46,8 @@
         pkgs.tmux
         pkgs.yazi
         pkgs.zed-editor
+        pkgs.zig
+        pkgs.zls
         pkgs.zoxide 
       ];
 
