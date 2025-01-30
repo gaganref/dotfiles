@@ -31,10 +31,12 @@
         pkgs.bat-extras.prettybat
         pkgs.btop
         pkgs.ctop
+        pkgs.direnv
         pkgs.dive
         pkgs.fzf
         pkgs.gh
         pkgs.gping
+        pkgs.gum
         pkgs.imhex
         pkgs.lazydocker
         pkgs.lazygit
