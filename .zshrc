@@ -55,7 +55,7 @@ zinit snippet OMZP::aws
 zinit snippet OMZP::kubectl
 zinit snippet OMZP::kubectx
 zinit snippet OMZP::command-not-found
-zinit snippet OMZP::direnv
+# zinit snippet OMZP::direnv
 
 #zi load "MichaelAquilina/zsh-you-should-use"
 
@@ -76,6 +76,15 @@ alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
 alias cat=bat
+
+# Alias for eza
+alias lsd='eza -lD'
+alias lsf='eza -lF --color=always | grep -v /'
+alias lsh='eza -dl .* --group-directories-first'
+alias lsa='eza -al --group-directories-first'
+alias lst='eza --tree'
+alias lsfs='eza -alF --color=always --sort=size | grep -v /'
+alias lsas='eza -al --sort=modified'
 
 # Shell integrations
 eval "$(fzf --zsh)"

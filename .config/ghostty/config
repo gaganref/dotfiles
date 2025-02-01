@@ -3,3 +3,4 @@
 theme = dark:Oxocarbon,light:AtomOneLight
 font-family = "JetBrainsMono Nerd Font Mono"
 font-size = 15
+font-feature = -calt

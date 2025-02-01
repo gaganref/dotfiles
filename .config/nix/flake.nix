@@ -31,13 +31,17 @@
         pkgs.bat-extras.prettybat
         pkgs.btop
         pkgs.ctop
-        pkgs.direnv
+        pkgs.curlie
+        # pkgs.direnv
         pkgs.dive
+        pkgs.eza
         pkgs.fzf
         pkgs.gh
+        pkgs.git
         pkgs.gping
         pkgs.gum
         pkgs.imhex
+        pkgs.jq
         pkgs.lazydocker
         pkgs.lazygit
         pkgs.neofetch
@@ -121,7 +125,8 @@
       # Set Git commit hash for darwin-version.
       system.configurationRevision = self.rev or self.dirtyRev or null;
 
-      # Used for backwards compatibility, please read the changelog before changing.
+      # Used for backwards compatibility, 
+      # please read the changelog before changing.
       # $ darwin-rebuild changelog
       system.stateVersion = 5;
 
