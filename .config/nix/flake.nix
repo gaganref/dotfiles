@@ -30,6 +30,8 @@
         pkgs.bat-extras.batpipe
         pkgs.bat-extras.prettybat
         pkgs.btop
+        pkgs.ccache
+        pkgs.cmake
         pkgs.ctop
         pkgs.curlie
         # pkgs.direnv
@@ -74,12 +76,14 @@
           "arc"
           "bartender"
 	        "betterdisplay"
+            "cleanshot"
           "daisydisk"
 	        "discord"
 	        "displaylink"
           "ghostty"
 	        "google-chrome"
           "keymapp"
+          # "lm-studio"
           "logi-options+"
 	        "naps2"
 	        "notchnook"
@@ -91,6 +95,7 @@
 	        "zen-browser"
        	];
        	masApps = {
+          "Brother" = 1193539993;
        	  "Magnet" = 441258766; 
        	  "Whatsapp" = 310633997;
        	  "Wireguard" = 1451685025;
