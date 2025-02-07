@@ -52,6 +52,7 @@
         pkgs.starship
         pkgs.stow
         pkgs.tmux
+        pkgs.tmuxinator
         pkgs.yazi
         pkgs.zed-editor
         pkgs.zig

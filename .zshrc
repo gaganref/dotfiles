@@ -89,6 +89,3 @@ alias lsas='eza -al --sort=modified'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-
-export PATH="$HOME/.tmux/tmuxifier/bin:$PATH"
-eval "$(tmuxifier init -)"
