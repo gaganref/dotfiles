@@ -7,13 +7,13 @@ return {
 		"MunifTanjim/nui.nvim",
 	},
 	config = function()
-    local wk = require('which-key')
-    wk.add({
-      {
-        "<C-n>",
-        ":Neotree filesystem reveal toggle right<CR>",
-        desc = "Neo Tree File System"
-      },
-    })
+      local wk = require('which-key')
+      wk.add({
+        {
+          "<C-n>",
+          ":Neotree filesystem reveal toggle right<CR>",
+          desc = "Neo Tree File System"
+        },
+      })
 	end,
 }

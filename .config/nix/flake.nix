@@ -48,9 +48,11 @@
         pkgs.lazygit
         pkgs.neofetch
         pkgs.neovim
+        pkgs.qbittorrent
         pkgs.ripgrep
         pkgs.starship
         pkgs.stow
+        # pkgs.tailscale
         pkgs.tmux
         pkgs.tmuxinator
         pkgs.yazi
@@ -73,26 +75,33 @@
 	        "affinity-designer"
 	        "affinity-photo"
 	        "affinity-publisher"
+            "android-studio"
+            "anydesk"
 	        "alt-tab"
-          "arc"
-          "bartender"
+            "arc"
+            "bartender"
 	        "betterdisplay"
             "cleanshot"
-          "daisydisk"
+            "daisydisk"
 	        "discord"
 	        "displaylink"
-          "ghostty"
+            "ghostty"
 	        "google-chrome"
-          "keymapp"
-          # "lm-studio"
-          "logi-options+"
+            "imageoptim"
+            # "istat-menus"
+            "keymapp"
+            # "lm-studio"
+            "logi-options+"
 	        "naps2"
 	        "notchnook"
 	        "raycast"
 	        "spotify"
 	        "surfshark"
 	        "synology-drive"
+            "tailscale"
+            "utm"
 	        "vlc"
+            "windows-app"
 	        "zen-browser"
        	];
        	masApps = {

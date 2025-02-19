@@ -3,6 +3,11 @@
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
+# This is to fix ssh probles
+# if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+    # export TERM=xterm-256color
+# fi
+
 # Download Zinit, if it's not there yet
 if [ ! -d "$ZINIT_HOME" ]; then
    mkdir -p "$(dirname $ZINIT_HOME)"
